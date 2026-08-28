@@ -4,11 +4,10 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #ad1d1d;
-    color: #ca1f1f;
+    background-color: #e0d3d3;
+    color: #e9acac;
     font-family:Arial, Helvetica, sans-serif;
     line-height: 1.5;
-    text-aling: center;
 }
 header {
     height: 70px;
@@ -21,4 +20,37 @@ header {
     position: sticky;
     top: 0;
     z-index: 10;
+}
+.title {
+    align-items: center;
+    color:black
+}
+
+h1 {
+    color:black;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.logo::first-letter {
+    color:#054709
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+}
+
+.menu a {
+    color: #f12b2b;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.menu a:hover {
+    color: #152917;
+    font-size: 16px;
 }
